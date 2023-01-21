@@ -94,7 +94,9 @@ add_rule_extra_option() {
 
 create_config_file() {
 	local config_file="$1"
-	local tmp_file="$(mktemp /tmp/frps-XXXXXX)"
+	#local tmp_file="$(mktemp /tmp/frps-XXXXXX)"
+	local tmp_file="/etc/config/frps-ini"
+	touch /etc/config/frps-ini
 
 	echo "[common]" > "$tmp_file"
 	
