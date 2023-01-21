@@ -20,15 +20,15 @@ opkg install luci-app-frps_*.ipk
 
 ## Configure
 
-1. Download client file from Frp release [link](https://github.com/fatedier/frp/releases) or Frp ipk release [link](https://github.com/kuoruan/openwrt-frp/releases).
+1. Download server file from Frp release [link](https://github.com/fatedier/frp/releases) or Frp ipk release [link](https://github.com/kuoruan/openwrt-frp/releases).
 
-2. Upload the client file to your router, or install the ipk file.
+2. Upload the server file to your router, or install the ipk file.
 
-3. Config client file path in luci.
+3. Config server file path in luci.
 
 4. Add your server and proxy rules.
 
-5. Enable the client.
+5. Enable the server.
 
 ## Known issue
 
